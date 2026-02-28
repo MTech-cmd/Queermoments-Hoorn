@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <img src={banner} className="w-full" />
 
-      <nav className="relative flex justify-between items-center bg-[#f3e9f3] border-t-[#e7d3e6] border-t-4 h-16">
+      <nav className="relative flex justify-between items-center bg-[#f3e9f3] p-2 border-t-[#e7d3e6] border-t-4">
         
         {/* Left Floating Logo Block */}
         <div className="-top-8 left-0 absolute">
@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
 
         {/* Middle */}
-        <div className="mx-auto">
+        <div className="mx-auto mr-24">
           <p className="font-poppins font-semibold text-[27px] tracking-wide">
             Queer Moments Hoorn
           </p>
@@ -28,7 +28,14 @@ const Navbar = () => {
 
         {/* Right */}
         <div>
-          <p>home</p>
+          <p className="text-[#918a92] text">
+            <a src="TODO: add links" className="mt-0.5 px-4">Home</a>
+            <a src="TODO: add links" className="px-4">Borrels & meet-ups</a>
+            <a src="TODO: add links" className="px-4">Sfeer</a>
+            <a src="TODO: add links" className="px-4">Appgroep</a>
+            <a src="TODO: add links" className="px-4">Vrijwilliger worden?</a>
+            <a src="TODO: add links" className="px-4">More</a>
+          </p>
         </div>
       </nav>
     </div>
