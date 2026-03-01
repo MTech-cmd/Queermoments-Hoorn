@@ -11,7 +11,7 @@ const Navbar = () => {
         {/* Left Floating Logo Block */}
         <div className="-top-8 left-0 absolute">
           {/* Stretch background to left edge */}
-          <div className="flex items-center bg-[rgba(104,23,23,0.1)] py-4 pr-40 pl-32">
+          <div className="flex items-center bg-[rgba(104,23,23,0.06)] py-4 pr-40 pl-32">
             <img src={mond} />
           </div>
         </div>
