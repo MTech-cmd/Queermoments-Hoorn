@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "scratch": "git add . && git commit -m 'Deploying to GH Pages' && git push && npm i && vite build && gh-pages -d dist"
+    "scratch": "git add . && git commit -m 'Deploying to GH Pages' --allow-empty && git push && npm i && vite build && gh-pages -d dist"
   },
   "base": "/Queermoments-Hoorn/",
   "dependencies": {
