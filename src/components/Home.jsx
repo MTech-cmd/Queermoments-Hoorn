@@ -1,6 +1,7 @@
 import Hero from "../assets/hero.jpg"
 import Oog from "../assets/oog.png"
-import "./Home.css"
+import Seloni from "../assets/seloni.jpg"
+import VrijwilligerCard from "./VrijwilligerCard"
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
             className="w-full object-cover"
             alt="Queer Moments Hoorn"
           />
+          <p className="flex justify-end font-cormorant-garamond text-gray-700 italic tracking-wide">Foto gemaakt door rin@othermedia.nl</p>
         </div>
 
         {/* Rechter kant */}
@@ -56,8 +58,15 @@ const Home = () => {
             <li>Zondag 31 mei, 15:00 - 17:00, Cafe Goos</li>
           </ul>
 
+          <button className="flex hover:bg-gray-600 mt-8 ml-30 px-10 py-3 border-2 rounded-0 font-montserrat font-extrabold text-gray-600 hover:text-white text-sm tracking-wide transition duration-300 cursor-pointer">MEER EVENT INFO</button>
         </div>
 
+      </div>
+      <div className="bg-[#eedfed] p-20">
+        <h1 className="ms-70 font-aboreto text-3xl">QUEERTEAM</h1>
+        <div className="flex justify-center space-x-20">
+          <VrijwilligerCard img={Oog} name="Naam" rol="Rol" />
+        </div>
       </div>
     </div>
   )
